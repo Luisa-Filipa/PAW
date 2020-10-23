@@ -1,6 +1,6 @@
 FROM golang:1.14.10
 
-MAINTAINER Luisa Costa<lisacosta@gmail.com>
+MAINTAINER Luisa Costa<lisacosta99@gmail.com>
 
 RUN go get -u github.com/gin-gonic/gin
 
