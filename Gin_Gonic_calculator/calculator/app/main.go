@@ -92,7 +92,7 @@ func div(a ,b string) string {
 
 	res:=val1/val2
 
-	return strconv.FormatFloat(res, 'g', 64)
+	return strconv.FormatFloat(res, 'g',6, 64)
 }
 
 func mod(a ,b string) string  {
@@ -105,7 +105,7 @@ func mod(a ,b string) string  {
 
 	res:=math.Mod(val1,val2)
 
-	return strconv.FormatFloat(res, 'g', 64)
+	return strconv.FormatFloat(res, 'g',6, 64)
 }
 
 func pow(a ,b string) string  {
@@ -118,5 +118,5 @@ func pow(a ,b string) string  {
 
 	res:=math.Pow(val1,val2)
 
-	return strconv.FormatFloat(res, 'g', 64)
+	return strconv.FormatFloat(res, 'g',6, 64)
 }
